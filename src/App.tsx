@@ -1,20 +1,19 @@
 import { useState } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Header } from './components';
-import { Signin, Signup } from './pages';
+import { Home, Signin, Signup } from './pages';
 
 function App() {
 
   return (
-    <BrowserRouter>
-      <main id="main_root" className="main-root">
-        <Header/>      
-        <Routes>
-            <Route path="/" element={<Signin />} />
+      <>
+          <Header/>      
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/signin" element={<Signin />} />
             <Route path="/signup" element={<Signup />} />
-        </Routes>
-      </main>
-    </BrowserRouter>
+          </Routes>
+      </>
   )
 }
 

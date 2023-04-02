@@ -66,24 +66,24 @@ class Header extends Component {
                             </ul>
                         </li>
                         <li className="nav-item ">
-                            <a title="Home" href="" >
+                            <Link title="Home" to="/signin" >
                                 <span className="overflow">Home</span>
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item ">
-                            <a title="Service" href="" >
-                                <span className="overflow">About</span>
-                            </a>
+                            <Link title="Home" to="/signin" >
+                                <span className="overflow">Research</span>
+                            </Link>
                         </li>
                         <li className="nav-item ">
-                            <a title="Home" href="">
-                                <span className="overflow">Stories</span>
-                            </a>
+                            <Link title="Home" to="/signin" >
+                                <span className="overflow">Product</span>
+                            </Link>
                         </li>
                         <li className="nav-item ">
-                            <a title="Home" href="">
-                                <span className="overflow">Share</span>
-                            </a>
+                            <Link title="Home" to="/signin" >
+                                <span className="overflow">Company</span>
+                            </Link>
                         </li>
                     </ul>
                     <div className="container-content  d-flex flex-column justify-content-center section-margin">
