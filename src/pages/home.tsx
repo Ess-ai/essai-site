@@ -2,6 +2,7 @@ import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { ceci, ian, tomnora, write } from '../assets'
 import { brand1, brand2, brand3, brand4, brand5, brand6 } from '../assets/img/brand'
+import { Footer } from '../components'
 
 export default function Home() {
 
@@ -242,6 +243,49 @@ export default function Home() {
             </div>
         </div>
 
+        <section className="about-section about-one p-relative section-margin">
+            <div className="p-relative container">
+                <div className="bg-mask background-section w-70 h-55 v-middle"></div>
+                <div className="d-grid grid-md-2 p-relative z-index-1">
+                    <div className="box-info">
+                        <h2 className="title body-font ">
+                            <span className="letter-stroke d-block"
+                                  data-dsn-animation='{"from":{"paddingLeft":"10%"},"to":{"paddingLeft":"20%"},"responsive":["tablet","desktop"]}'>
+                                INTERFACE
+                            </span>
+                            <span className="fw-600">THAT IS</span>
+                            <span className="text-right w-100">ADMIRED</span>
+                        </h2>
+                        <div className="d-grid grid-md-2 align-items-center mt-10">
+                            <div className="dsn-def-btn dsn-icon-heading-color d-flex">
+                                <a className="dsn-btn dsn-border border-color-default  background-section  vid   has-icon-left"
+                                   href="" target="_blank" rel="nofollow"
+                                   data-dsn="parallax"> <span
+                                        className="dsn-icon dsn-bg-before btn-icon-left heading-color z-index-1"><i
+                                        className="fas fa-play"></i></span> <span
+                                        className="title-btn p-relative  z-index-1 heading-color">PLAY VIDEO</span> </a>
+                            </div>
+                            <div className="p-large text-right">
+                                <p className="sm-title-block max-w350">
+                                    Making you <br/> Articulate and Smart <br/>with your essay.
+                                </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div className="box-img">
+                        <img decoding="async" className="cover-bg-img" src={ ian } title="" alt=""/>
+                    </div>
+                </div>
+                <div className="p-relative box-img-bottom hv-50">
+                    <img className="cover-bg-img" decoding="async" src={ ceci } title="" alt=""/>
+                </div>
+            </div>
+
+
+        </section>
+
         <div className="p-relative section-padding background-section ">
             <div className="background-overlay"></div>
             <div className="container">
@@ -265,7 +309,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="elementor-widget-dsn_testimonial" data-widget_type="dsn_testimonial.default">
-                    <div className="dsn-testimonials dsn-swiper p-relative has-parallax-image" data-dsn-option='{"spaceBetween":30,"centeredSlides":false,"slidesPerView":2}'>
+                    <div className="dsn-testimonials dsn-swiper p-relative has-parallax-image" data-dsn-option='{"spaceBetween":10,"centeredSlides":false,"slidesPerView":3}'>
                         <div className="testimonials-content">
                             <div className="testimonial-inner">
                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
@@ -344,6 +388,8 @@ export default function Home() {
                 </div>
             </div>
         </div>
+
+        <Footer/>
 
     </>
   )
