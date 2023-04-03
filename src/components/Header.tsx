@@ -85,31 +85,6 @@ class Header extends Component {
                             </Link>
                         </li>
                     </ul>
-                    <div className="container-content  d-flex flex-column justify-content-center section-margin">
-                        <div className="nav__info">
-                            <div className="nav-content">
-                                <h5 className="sm-title-block mb-10">Studio</h5>
-                                26-30 New Damietta
-                                El-Mahalla El-Kubra, SK1 66LM
-        
-                            </div>
-                            <div className="nav-content mt-30">
-                                <h5 className="sm-title-block mb-10">Contact</h5>
-                                <p className="links over-hidden mb-1">
-                                    <a className="link-hover d-block" href="tel:00201004392260" data-hover-text="+00 (2)012 3321">+00 (2)01004392260</a>
-                                    <a className="link-hover" href="tel:00201024552406" data-hover-text="+00 (2)012 3321">+00 (2)01024552406</a>
-                                </p>
-                                <p className="links over-hidden"><a className="link-hover" href="mailto:info@dsngrid.com"
-                                                                data-hover-text="info@dsngrid.com">info@example.com</a></p>
-        
-                            </div>
-                        </div>
-                        <div className="nav-social nav-content mt-30">
-                            <div className="nav-social-inner p-relative">
-                                <h5 className="sm-title-block mb-10">Follow us</h5>
-                            </div>
-                        </div>
-                    </div>
                 </nav>
                 <div id="navbar_toggle" className="navbar-toggle">
                     <div className="toggle-icon">

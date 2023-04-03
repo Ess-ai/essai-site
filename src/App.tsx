@@ -2,7 +2,6 @@ import { useState } from 'react';
 import {  BrowserRouter as Router,  Route,  Link,   Routes } from "react-router-dom";
 import { Header } from './components';
 import { Home, Signin, Signup } from './pages';
-import './App.css'
 
 function App() {
 
