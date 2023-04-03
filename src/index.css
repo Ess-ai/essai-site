@@ -44,7 +44,7 @@ Template Name: BlackDsn - Ajax Portfolio HTML Template
   --assistant-color: #efefef;
   --theme-color: #e4dcd3;
   --theme-color-font: #000;
-  --font-color: #0009;
+  --font-color: rgba(0, 0, 0, 0.842);
   --heading-color: #000;
   --input-box-border-color: #000;
   --circle-color: #000;
@@ -479,6 +479,22 @@ body:not(.dsn-cursor-effect) #dsn_cursor, body:not(.dsn-cursor-effect) #dsn_curs
 }
 .v-light .day-night .moon {
   opacity: 1;
+}
+
+::-webkit-scrollbar {
+  width: 0.3vw; /* THIS WILL RESET THE DEFAULT SCORLLBAR STYLING */
+}
+
+/* TO STYLE THE SCROLLBAR TRACK */
+::-webkit-scrollbar-track {
+  background-color: transparent; /* THIS WILL SET THE COLOR OF THE SCROLLBAR TRACK */
+}
+
+/* TO STYLE THE SCROLLBAR THUMB */
+::-webkit-scrollbar-thumb {
+  background-color: #00004d;
+  border: 0.1vw solid transparent;
+  border-radius: 5vw;
 }
 
 #main_root:before, #main_root:after {
@@ -1329,11 +1345,11 @@ a:hover, a:active {
     stroke-dasharray: 10;
   }
 }
+/**
 .site-header.dsn-hamburger .dsn-back {
-  /**
       Hover
-   */
 }
+*/
 .site-header.dsn-hamburger .dsn-back svg {
   fill: none;
   stroke: var(--border-color);
@@ -2220,11 +2236,11 @@ a:hover, a:active {
 /* -------------------------------------------------------
                    09 - Slider
 -------------------------------------------------------- */
-.main-slider {
   /**
+.main-slider {
     Animation
-   */
 }
+   */
 .main-slider {
   height: 100vh;
 }
