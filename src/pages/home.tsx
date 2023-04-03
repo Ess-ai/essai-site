@@ -19,22 +19,18 @@ export default function Home() {
                             <div className="intro-title ">
                                 <div id="hero_title" className="mt-10">
                                     <h1 className="title text-upper">
-                                        We are delivering beautiful digital products for you.
+                                        Revolutionize the way you write and learn.
                                     </h1>
                                 </div>
                                 <p className="mt-20 max-w570">
-                                    If you are looking for an agency to help you create a remarkable presence online, you’ve
-                                    come to the right place. We can help you take your business to the next level.
+                                    Essai is an AI-powered essay marking site that utilizes advanced language processing capabilities to analyze and evaluate student essays. The site uses the powerful GPT language model to provide feedback and suggestions to help students improve their essay writing skills.
                                 </p>
-                                <div className="dsn-def-btn dsn-hover-icon dsn-icon-heading-color mt-20 d-flex">
-                                    <NavLink className="dsn-btn dsn-border border-color-default background-section has-icon-left" to="/signin" data-dsn-text="Sign In">
-                                        <span className="dsn-icon dsn-bg-before btn-icon-left heading-color z-index-1">
-                                            <i className="fas fa-angle-right" aria-hidden="true"></i>
-                                        </span>
-                                        <span className="title-btn p-relative  z-index-1 ">
-                                            Try essai
-                                        </span>
-                                    </NavLink>
+                                <div className="dsn-def-btn dsn-icon-heading-color mt-20 d-flex">
+                                    <div className="dsn-normal-btn dsn-icon-heading-color d-flex align-self-end  justify-self-end">
+                                        <Link className="dsn-btn dsn-border border-color-defaul bg-blue effect-ajax border-rdu move-circle" data-dsn="parallax" to="https://essai.nilecore.site" data-dsn-text="TRY ESSAI">
+                                            <span className="title-btn p-relative z-index-1">TRY ESSAI</span>
+                                        </Link>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -129,23 +125,17 @@ export default function Home() {
         <div className="p-relative section-padding">
             <div className="container d-flex flex-column justify-content-center h-100">
                 <h3 className="title-h2 text-upper text-white">
-                    Need help with professional <br/>photography? <b>Let's work together!</b>
+                    Let's Make you confident and articulate<br/><b>Let's work together!</b>
                 </h3>
                 <p className="mt-30 max-w570 text-white">
-                    In my work, I try to find the right balance between form and function. From technical drawings, all
-                    the way to the photographic renders, and the actual representations of my work as a designer, my
-                    philosophy is that of simplicity.
-                    <span className="mb-10 d-block text-white">
-                    </span>
-                    At the same time, my style is distinctly mine – uncluttered, with clean shapes and modern
-                    space-saving solutions.
+                    Elevate your grading game with our innovative AI-powered essay marker. Whether you're a teacher, professor, or tutor, our platform enhances your grading experience with powerful features that analyze language, content, and structure, delivering accurate assessments and personalized feedback to your students.
                 </p>
                 <div className="dsn-def-btn d-flex dsn-border-style dsn-icon-heading-color mt-30">
                     <a className="dsn-btn dsn-border border-color-default background-section  move-circle has-icon-left" href="/" data-dsn-text="Contact Us" data-dsn="parallax">
                         <span className="dsn-icon dsn-bg-before btn-icon-left heading-color z-index-1">
                             <i className="far fa-envelope-open"></i>
                         </span>
-                        <span className="title-btn p-relative  z-index-1 text-white ">CONTACT US</span>
+                        <span className="title-btn p-relative  z-index-1 text-white ">WORK WITH US</span>
                     </a>
                 </div>
             </div>
@@ -158,20 +148,23 @@ export default function Home() {
                 <div className="section-title mb-70 d-grid grid-md-2 ">
                     <div className=" d-flex">
                         <div className="sub-section-title ">
+                            <p className="description d-inline-block p-relative circle-before mb-10">
+                                <span>Features</span>
+                            </p>
                             <span className="title-h2 title-block-lg d-block heading-color">
-                                Build <b>faster</b> and <b>focus</b> on your <b>products</b>
+                                Write <b>faster</b> and <b>focus</b> on your <b>essai</b>
                             </span>
                         </div>
                     </div>
                     <div className="dsn-normal-btn dsn-icon-heading-color d-flex align-self-end  justify-self-end">
                         <a className="dsn-btn dsn-border border-color-default background-main effect-ajax border-rdu move-circle"
-                        data-dsn="parallax" href="contact.html" data-dsn-text="CONTACT US">
-                            <span className="title-btn p-relative z-index-1">CONTACT US</span>
+                        data-dsn="parallax" href="contact.html" data-dsn-text="">
+                            <span className="title-btn p-relative z-index-1">LEARN MORE</span>
                         </a>
                     </div>
                 </div>
                 <div className="elementor-widget-dsn_testimonial" data-widget_type="dsn_testimonial.default">
-                    <div className="dsn-testimonials dsn-swiper p-relative has-parallax-image" data-dsn-option='{"spaceBetween":20,"centeredSlides":false,"slidesPerView":4}'>
+                    <div className="dsn-testimonials dsn-swiper p-relative has-parallax-image" data-dsn-option='{"spaceBetween":10,"centeredSlides":false,"slidesPerView":4}'>
                         <div className="testimonials-content">
                             <div className="testimonial-inner">
                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
@@ -188,8 +181,11 @@ export default function Home() {
                                             <div className="testimonial-item">
                                                 <div className="testimonial-content mb-25">
                                                     <div className="quote">
-                                                        <p className="max-w750 testimonial-content p-large">
-                                                            This theme is awesome and the designer is very helpful. I had a few questions purchase. He/She helped me with all the doubts. Also, they provide quick support. Thank you so much for a beautiful theme
+                                                        <p className="max-w750 testimonial-content p-large  h-100">
+                                                            <b>Language Analysis:</b>
+                                                            <span>
+                                                            This category would include features such as grammar and punctuation checking, vocabulary checking, sentence structure analysis, and style and tone analysis.
+                                                            </span>                                    
                                                         </p>
                                                     </div>
                                                 </div>
@@ -199,8 +195,39 @@ export default function Home() {
                                             <div className="testimonial-item">
                                                 <div className="testimonial-content mb-25">
                                                     <div className="quote">
-                                                        <p className="max-w750 testimonial-content p-large">
-                                                            This theme is awesome and the designer is very helpful. I had a few questions purchase. He/She helped me with all the doubts. Also, they provide quick support. Thank you so much for a beautiful theme
+                                                        <p className="max-w750 testimonial-content p-large h-100">
+                                                            <b>Additional Features: </b>
+                                                            <span>
+                                                                This category would include additional features such as language translation and topic suggestion. Plagiarism checker: The AI essay marker can scan the essay for plagiarized content and provide a report of originality.
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="swiper-slide testimonial-inner-item background-main">
+                                            <div className="testimonial-item">
+                                                <div className="testimonial-content mb-25">
+                                                    <div className="quote">
+                                                        <p className="max-w750 testimonial-content p-large h-100">
+                                                            <b>Content Analysis</b>
+                                                            <span>
+                                                                This category would include features such as content analysis, plagiarism checking, and relevance assessment.
+                                                            </span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="swiper-slide testimonial-inner-item background-main">
+                                            <div className="testimonial-item">
+                                                <div className="testimonial-content mb-25">
+                                                    <div className="quote">
+                                                        <p className="max-w750 testimonial-content p-large h-100">
+                                                            <b>Scoring and Feedback: </b>
+                                                            <span>
+                                                                This category would include features such as grading and scoring the essay based on pre-defined criteria, generating personalized feedback for the student, and identifying areas for improvement.
+                                                            </span>
                                                         </p>
                                                     </div>
                                                 </div>
@@ -232,8 +259,8 @@ export default function Home() {
                     </div>
                     <div className="dsn-normal-btn dsn-icon-heading-color d-flex align-self-end  justify-self-end">
                         <a className="dsn-btn dsn-border border-color-default background-main effect-ajax border-rdu move-circle"
-                           data-dsn="parallax" href="contact.html" data-dsn-text="CONTACT US">
-                            <span className="title-btn p-relative z-index-1">CONTACT US</span>
+                           data-dsn="parallax" href="contact.html" data-dsn-text="FEEDBACK">
+                            <span className="title-btn p-relative z-index-1">FeedBacks</span>
                         </a>
                     </div>
                 </div>
