@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 class Header extends Component {
     render() {
         return (
-            <header id="site_menu_header" className="site-header  dsn-container d-none dsn-hamburger">
+            <header id="site_menu_header" className="site-header dsn-container text-upper">
                 <div className="main-logo">
                     <Link to="/" data-dsn-text="Essai" className="custom-logo-link main-brand effect-ajax" rel="home"
                     aria-current="page">
@@ -16,9 +16,14 @@ class Header extends Component {
                 <nav className="main-navigation ">
                     <div className="menu-cover-title header-container dsn-container">MENU</div>
                     <ul id="dsn-primary-list" className="primary-nav h2">
+                        <li className="nav-item ">
+                            <Link title="Home" to="/signin" >
+                                <span className="overflow">Home</span>
+                            </Link>
+                        </li>
                         <li className="nav-item has-sub-menu">
                             <a title="Home" href="">
-                                <span className="overflow ">Profile</span>
+                                <span className="overflow ">News</span>
                             </a>
                             <ul className="nav-item">
                                 <li className="dsn-back">
@@ -33,7 +38,7 @@ class Header extends Component {
                                             </svg>
                                             
                                             <span className="text-toggle-back">
-                                                <span className="text-name">Profile</span>
+                                                <span className="text-name">News</span>
                                                 <span className="text-back">Back</span>
                                             </span>
                                         </span>
@@ -45,17 +50,17 @@ class Header extends Component {
                                 </li>
                                 <li className="nav-item ">
                                     <a title="Log Out" href="" data-dsn-text="Logging Out">
-                                        <span className="overflow">Share Story</span>
+                                        <span className="overflow">Stories</span>
                                     </a>
                                 </li>
                                 <li className="nav-item ">
                                     <a title="Log Out" href="" data-dsn-text="Logging Out">
-                                        <span className="overflow">Log Out</span>
+                                        <span className="overflow">Events</span>
                                     </a>
                                 </li>
                                 <li className="nav-item ">
                                     <a title="Stories" href="" data-dsn-text="Become a StoryTeller">
-                                        <span className="overflow">Register</span>
+                                        <span className="overflow">Update</span>
                                     </a>
                                 </li>
                                 <li className="nav-item ">
@@ -64,11 +69,6 @@ class Header extends Component {
                                     </a>
                                 </li>
                             </ul>
-                        </li>
-                        <li className="nav-item ">
-                            <Link title="Home" to="/signin" >
-                                <span className="overflow">Home</span>
-                            </Link>
                         </li>
                         <li className="nav-item ">
                             <Link title="Home" to="/signin" >

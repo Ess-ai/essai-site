@@ -27,7 +27,7 @@ const dsnParam = {
 
   async function reloadAjax($off, $el = $(document)) {
     if (!$off) {
-      window.$effectScroll = await effectScroller();
+      window.$effectScroll = effectScroller();
       window.$animate = await dsnGrid.effectAnimate();
     }
 
@@ -42,25 +42,25 @@ const dsnParam = {
     gridGaps();
     await $effectScroll.start();
     await $animate.allInt();
-    await loadLazyImage($el, ['bg', 'src']);
-    await sliderPortfolio();
-    await fancyBox();
-    await justifiedGallery($el);
-    await compareTowImage();
-    await serviceSection($el);
-    await scrollBarWidth();
-    await menuInit();
-    await dropHash();
-    await initMap($el);
-    await accordion($el);
-    await projectSlider().run();
-    await Headline($el);
-    await tabs($el);
+    loadLazyImage($el, ['bg', 'src']);
+    sliderPortfolio();
+    fancyBox();
+    justifiedGallery($el);
+    compareTowImage();
+    serviceSection($el);
+    scrollBarWidth();
+    menuInit();
+    dropHash();
+    initMap($el);
+    accordion($el);
+    projectSlider().run();
+    Headline($el);
+    tabs($el);
     if (!$off) await Isotope($el);else setTimeout(Isotope, 500);
     if (!$body.hasClass('elementor-editor-active')) dsnAjax() && (await dsnAjax().start());
-    await list_project($el);
-    await inputNumber($el);
-    await mouseCirMove($off);
+    list_project($el);
+    inputNumber($el);
+    mouseCirMove($off);
   }
 
   function imgPosition() {
