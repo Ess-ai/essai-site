@@ -7,7 +7,7 @@ export default function Footer() {
             <svg className="dsn-separator dsn-separator-up  dsn-icon-main-color" width="100%" height="100%"
                  viewBox="0 0 100 10" preserveAspectRatio="none">
                 <path className="path-anim separator__path" data-dsn-to="M 0 0 C 40 0 55 0 100 0 L 0 0 Z"
-                      vector-effect="non-scaling-stroke" d="M 0 0 C 40 16 75 10 100 0 L 0 0 Z"></path>
+                      vectorEffect="non-scaling-stroke" d="M 0 0 C 40 16 75 10 100 0 L 0 0 Z"></path>
             </svg>
             <div className="footer-content p-relative mt-section">
 
