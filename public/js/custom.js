@@ -12,7 +12,7 @@ const dsnParam = {
   },
   scrollbar: {
     duration: 1.5,
-    smooth: false,
+    smooth: true,
     smoothTouch: false,
     mouseMultiplier: 1
   },
@@ -1397,7 +1397,7 @@ const dsnParam = {
    */
 
   function changeStyle() {
-    const options = $('#dsn_box_options');
+    const options = $('#style_switch');
     options.on('click', function () {
       const isDark = $body.hasClass('v-dark'),
             _dark = $('.v-dark'),
@@ -1406,8 +1406,10 @@ const dsnParam = {
       $body.toggleClass('v-dark');
 
       _dark.removeClass('v-dark').addClass('v-light');
+      _dark.removeClass('fa-toggle-off').addClass('fa-toggle-on');
 
       _light.addClass('v-dark').removeClass('v-light');
+      _light.removeClass('fa-toggle-on').addClass('fa-toggle-off');
 
       $.ajax({
         url: dsnParam.ajaxStyle,

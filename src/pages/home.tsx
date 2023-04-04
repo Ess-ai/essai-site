@@ -8,7 +8,7 @@ export default function Home() {
 
     return (
         <>
-        <header id="dsn_header" className="dsn-header-animation dsn-container section-padding v-light-head">
+        <header id="dsn_header" className="dsn-header-animation dsn-container section-padding">
             <div className="entry-header p-relative over-hidden">
                 <div id="hero_image" className="p-absolute dsn-hero-parallax-img over-hidden bytr" data-dsn-ajax="img" data-overlay="1">
                     <img src={ tomnora } className="cover-bg-img transform-3d" alt=""></img>
@@ -384,106 +384,6 @@ export default function Home() {
                             </div>
                         </div>
 
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div className="p-relative section-margin container">
-            <div className="p-relative box-image-parallax dsn-style-cards">
-                <div className="section-title mb-70 d-grid grid-md-2 ">
-                    <div className=" d-flex">
-                        <p className="title-block max-w750">
-                            Take your essay grading on-the-go with our mobile app. Our powerful and user-friendly platform streamlines the grading process, providing lightning-fast assessments and personalized feedback anytime, anywhere.
-                        </p>
-                    </div>
-                </div>
-
-                <div className="root-posts has-filter">
-                    <div className="dsn-posts dsn-post-type-cards box-image-normal d-grid grid-md-2  dsn-isotope use-filter v-dark-head" data-dsn-gap="60px">
-                        <article className="dsn-item-post grid-item over-hidden p-relative box-hover-image production">
-                            <div className="box-content d-flex ">
-                                <a className="effect-ajax box-image-link bg-shadow" href="project-6.html"
-                                   data-dsn-ajax="work" title="HEADPHONES">
-                                    <div className="box-image-bg before-z-index dsn-swiper-parallax-transform"
-                                         data-overlay="4">
-                                        <img className="cover-bg-img" src={ceci}
-                                             alt=""/>
-                                    </div>
-                                </a>
-                                <div className="post-content dsn-bg p-relative z-index-1 d-flex flex-column">
-                                    <div className="post-title-info">
-                                        <div className="post-meta max-w750">
-                                            <div className="p-relative d-inline-block dsn-category dsn-bg metas mb-10 entry-meta">
-                                                <span data-separator="&">PHONE</span>
-                                            </div>
-                                        </div>
-                                        <h2 className="post-title title-block">
-                                            <a href="project-6.html" className="effect-ajax"
-                                               data-dsn-ajax="work">
-                                                APP
-                                            </a>
-                                        </h2>
-                                        <p className="section_description mt-15 max-w570 ">
-                                            DOWNLOAD ANDROID AND IOS VERSION OF THE APP
-                                        </p>
-                                        <a href="project-6.html"
-                                           className="effect-ajax dsn-post-link move-circle border-color-heading"
-                                           data-dsn="parallax" data-dsn-ajax="work">
-                                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
-                                                <path className="arrow-after"
-                                                      d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/>
-                                            </svg>
-                                        </a>
-                                    </div>
-
-
-                                </div>
-                            </div>
-                        </article>
-                        <article className="dsn-item-post grid-item over-hidden p-relative box-hover-image production photography">
-                            <div className="box-content d-flex ">
-                                <a className="effect-ajax box-image-link bg-shadow" href="project-5.html"
-                                   data-dsn-ajax="work" title="DOG CHOW">
-                                    <div className="box-image-bg before-z-index dsn-swiper-parallax-transform"
-                                         data-overlay="3">
-                                        <img className="cover-bg-img" src={ian}
-                                             alt=""/>
-                                    </div>
-                                </a>
-                                <div className="post-content dsn-bg p-relative z-index-1 d-flex flex-column">
-                                    <div className="post-title-info">
-                                        <div className="post-meta max-w750">
-                                            <div className="p-relative d-inline-block dsn-category dsn-bg metas mb-10 entry-meta">
-                                                <span data-separator=" & ">WINDOWS</span>
-                                                <span data-separator=" & ">LINUX</span>
-                                            </div>
-                                        </div>
-                                        <h2 className="post-title title-block">
-                                            <a href="project-5.html" className="effect-ajax"
-                                               data-dsn-ajax="work">
-                                                APP
-                                            </a>
-                                        </h2>
-                                        <p className="section_description mt-15 max-w570 ">
-                                            WINDOWS AND LINUX VERSION OF THE SITE IS NOW AVAILABLE.
-                                        </p>
-                                        <a href="project-5.html"
-                                           className="effect-ajax dsn-post-link move-circle border-color-heading"
-                                           data-dsn="parallax" data-dsn-ajax="work">
-                                            <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg">
-                                                <path className="arrow-after"
-                                                      d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z"/>
-                                            </svg>
-                                        </a>
-                                    </div>
-
-
-                                </div>
-                            </div>
-
-
-                        </article>
                     </div>
                 </div>
             </div>
