@@ -18,11 +18,11 @@ export default function Footer() {
                     </h2>
                     <div className="dsn-icon-heading-color dsn-def-btn d-flex justify-content-center mt-30">
                         <a className="dsn-btn dsn-border border-color-default  background-main  effect-ajax has-icon-left"
-                           href="contact.html" data-dsn-text="START A PROJECT">
+                           href="/signin" data-dsn-text="TRY ESSAI">
                         <span className="dsn-icon dsn-bg-before btn-icon-left heading-color z-index-1">
                             <i className="fas fa-angle-right" aria-hidden="true"></i>
                         </span>
-                            <span className="title-btn p-relative  z-index-1 ">TRY ESSAI</span>
+                            <span className="title-btn p-relative z-index-1 ">JOIN THE WAITLIST</span>
                         </a>
                     </div>
 
@@ -134,7 +134,7 @@ export default function Footer() {
                             © 2023 <a href="" className="link-hover" data-hover-text="ESSAI" target="_blank">ESSAI</a>
                         </p>
                         </div>
-                        <div id="styleSwitch" className='grid-col-2 text-right styleSwitch'>
+                        <div id="style_switch" className='grid-col-2 text-right style-switch'>
                             <span className='day active' data-dsn-theme="light">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="sbui-icon text-scale-900">
                                     <circle cx="12" cy="12" r="5"></circle>
@@ -148,7 +148,7 @@ export default function Footer() {
                                     <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                                 </svg>
                             </span>
-                            <span className='h3'> 
+                            <span className='h3 dsn-def-btn'> 
                                 <i className='fa fa-toggle-off'></i> 
                             </span>
                             <span className='night' data-dsn-theme="dark"> 

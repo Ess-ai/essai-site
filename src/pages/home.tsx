@@ -8,7 +8,7 @@ export default function Home() {
 
     return (
         <>
-        <header id="dsn_header" className="dsn-header-animation dsn-container section-padding v-light-head">
+        <header id="dsn_header" className="dsn-header-animation dsn-container section-padding">
             <div className="entry-header p-relative over-hidden">
                 <div id="hero_image" className="p-absolute dsn-hero-parallax-img over-hidden bytr" data-dsn-ajax="img" data-overlay="1">
                     <img src={ tomnora } className="cover-bg-img transform-3d" alt=""></img>

@@ -12,7 +12,7 @@ const dsnParam = {
   },
   scrollbar: {
     duration: 1.5,
-    smooth: false,
+    smooth: true,
     smoothTouch: false,
     mouseMultiplier: 1
   },
@@ -1397,7 +1397,7 @@ const dsnParam = {
    */
 
   function changeStyle() {
-    const options = $('.styleSwitch');
+    const options = $('#style_switch');
     options.on('click', function () {
       const isDark = $body.hasClass('v-dark'),
             _dark = $('.v-dark'),
