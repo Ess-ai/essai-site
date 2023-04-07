@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
-import { ceci, ian, tomnora, write } from '../assets'
+import { ceci, ian, prev1, prev2, tomnora, write } from '../assets'
 import { brand1, brand2, brand3, brand4, brand5, brand6 } from '../assets/img/brand'
 import { Footer } from '../components'
 
@@ -139,6 +139,12 @@ export default function Home() {
                         <span className="title-btn p-relative  z-index-1 text-white ">WORK WITH US</span>
                     </a>
                 </div>
+            </div>
+        </div>
+
+        <div className="p-relative">
+            <div className="mt-section hero-image dsn-box-shadow">
+                <img className="w-100" src={prev2} alt=""/>
             </div>
         </div>
 
