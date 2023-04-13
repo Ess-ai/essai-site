@@ -29,7 +29,7 @@ export default function Home() {
                                 <div className="dsn-def-btn dsn-icon-heading-color mt-20 d-flex">
                                     <div className="dsn-normal-btn dsn-icon-heading-color d-flex align-self-end  justify-self-end">
                                         <Link className="dsn-btn dsn-border border-color-defaul bg-blue effect-ajax border-rdu move-circle" data-dsn="parallax" to="https://essai.nilecore.site" data-dsn-text="TRY ESSAI">
-                                            <span className="title-btn p-relative z-index-1">TRY ESSAI</span>
+                                            <span className="title-btn p-relative z-index-1 text-white">TRY ESSAI</span>
                                         </Link>
                                     </div>
                                 </div>
@@ -125,10 +125,10 @@ export default function Home() {
 
         <div className="p-relative section-padding">
             <div className="container d-flex flex-column justify-content-center h-100">
-                <h3 className="title-h2 text-upper text-white">
+                <h3 className="title-h2 text-upper">
                     Let's Make you confident and articulate<br/><b>Let's work together!</b>
                 </h3>
-                <p className="mt-30 max-w570 text-white">
+                <p className="mt-30 max-w570">
                     Elevate your grading game with our innovative AI-powered essay marker. Whether you're a teacher, professor, or tutor, our platform enhances your grading experience with powerful features that analyze language, content, and structure, delivering accurate assessments and personalized feedback to your students.
                 </p>
                 <div className="dsn-def-btn d-flex dsn-border-style dsn-icon-heading-color mt-30">
@@ -136,15 +136,9 @@ export default function Home() {
                         <span className="dsn-icon dsn-bg-before btn-icon-left heading-color z-index-1">
                             <i className="far fa-envelope-open"></i>
                         </span>
-                        <span className="title-btn p-relative  z-index-1 text-white ">WORK WITH US</span>
+                        <span className="title-btn p-relative z-index-1">WORK WITH US</span>
                     </a>
                 </div>
-            </div>
-        </div>
-
-        <div className="p-relative">
-            <div className="mt-section hero-image dsn-box-shadow">
-                <img className="w-100" src={prev2} alt=""/>
             </div>
         </div>
 
@@ -249,49 +243,6 @@ export default function Home() {
             </div>
         </div>
 
-        <section className="about-section about-one p-relative section-margin">
-            <div className="p-relative container">
-                <div className="bg-mask background-section w-70 h-55 v-middle"></div>
-                <div className="d-grid grid-md-2 p-relative z-index-1">
-                    <div className="box-info">
-                        <h2 className="title body-font ">
-                            <span className="letter-stroke d-block"
-                                  data-dsn-animation='{"from":{"paddingLeft":"10%"},"to":{"paddingLeft":"20%"},"responsive":["tablet","desktop"]}'>
-                                INTERFACE
-                            </span>
-                            <span className="fw-600">THAT IS</span>
-                            <span className="text-right w-100">ADMIRED</span>
-                        </h2>
-                        <div className="d-grid grid-md-2 align-items-center mt-10">
-                            <div className="dsn-def-btn dsn-icon-heading-color d-flex">
-                                <a className="dsn-btn dsn-border border-color-default  background-section  vid   has-icon-left"
-                                   href="" target="_blank" rel="nofollow"
-                                   data-dsn="parallax"> <span
-                                        className="dsn-icon dsn-bg-before btn-icon-left heading-color z-index-1"><i
-                                        className="fas fa-play"></i></span> <span
-                                        className="title-btn p-relative  z-index-1 heading-color">PLAY VIDEO</span> </a>
-                            </div>
-                            <div className="p-large text-right">
-                                <p className="sm-title-block max-w350">
-                                    Making you <br/> Articulate and Smart <br/>with your essay.
-                                </p>
-                            </div>
-                        </div>
-
-
-                    </div>
-                    <div className="box-img">
-                        <img decoding="async" className="cover-bg-img" src={ ian } title="" alt=""/>
-                    </div>
-                </div>
-                <div className="p-relative box-img-bottom hv-50">
-                    <img className="cover-bg-img" decoding="async" src={ ceci } title="" alt=""/>
-                </div>
-            </div>
-
-
-        </section>
-
         <div className="p-relative section-padding background-section ">
             <div className="background-overlay"></div>
             <div className="container">
@@ -315,7 +266,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="elementor-widget-dsn_testimonial" data-widget_type="dsn_testimonial.default">
-                    <div className="dsn-testimonials dsn-swiper p-relative has-parallax-image" data-dsn-option='{"spaceBetween":10,"centeredSlides":false,"slidesPerView":3}'>
+                    <div className="dsn-testimonials dsn-swiper p-relative has-parallax-image" data-dsn-option='{"spaceBetween":10,"centeredSlides":false,"slidesPerView":2}'>
                         <div className="testimonials-content">
                             <div className="testimonial-inner">
                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"

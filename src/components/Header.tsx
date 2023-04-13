@@ -38,11 +38,6 @@ class Header extends Component {
                                         </span>
                                 </li>
                                 <li className="nav-item ">
-                                    <a title="Stories" href="" data-dsn-text="Stories">
-                                        <span className="overflow"></span>
-                                    </a>
-                                </li>
-                                <li className="nav-item ">
                                     <a title="Log Out" href="" data-dsn-text="Logging Out">
                                         <span className="overflow">Stories</span>
                                     </a>
@@ -179,8 +174,8 @@ class Header extends Component {
                             </ul>
                         </li>
                         <li className="nav-item">
-                            <Link className="dsn-normal-btn dsn-btn dsn-border border-color-default effect-ajax border-rdu move-circle" data-dsn="parallax" to="/" data-dsn-text="">
-                            <span className="title-btn p-relative z-index-1">TRY ESSAI</span>
+                            <Link data-dsn="parallax" to="/" data-dsn-text="ESSAI">
+                                <span className="title-btn p-relative z-index-1"><b>Try essai</b></span>
                             </Link>
                         </li>
                     </ul>

@@ -1,29 +1,39 @@
-----------------------------------------------------------*/
+
 .v-light, .v-light-head {
   --bg-btn: #f6fafd;
   --input-box-border-color: #000;
   --loading-color: #00004d;
+  --bold-color: #00004d;
 }
 
 .v-dark, .v-dark-head {
   --input-box-border-color: #ffffff1a;
   --bg-btn: #0a0909;
   --loading-color: white;
+  --bold-color: white;
+}
+
+b{
+  color: #00004d;
+}
+
+.text-white{
+  color: white;
 }
 
 .loader{
   position: absolute;
-  left:50%;
-  margin-top:2rem;
+  left: 50%;
+  margin-top: 2rem;
   transform: translate(-50%, -50%);
-  height:5px;
-  width:15rem;
-  background-color: transparent;
+  height: 2px;
+  width: 7rem;
+  background-color: gray;
 }
 .loading{
-  background-color: #00004d;  
-  width:5rem;
-  height:5px;
+  background-color:#00004d;  
+  width: 1rem;
+  height: 2px;
   animation: animation 1.8s infinite;
 }
   
@@ -32,7 +42,7 @@
       transform: translateX(0rem);
   }
   50% {
-      transform: translateX(10rem);
+      transform: translateX(6rem);
   }
   100% {
       transform: translateX(0rem);
