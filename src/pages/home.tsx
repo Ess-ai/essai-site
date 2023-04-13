@@ -20,7 +20,7 @@ export default function Home() {
                             <div className="intro-title ">
                                 <div id="hero_title" className="mt-10">
                                     <h1 className="title text-upper">
-                                        Revolutionize the way you write and learn.
+                                        AI for Learning
                                     </h1>
                                 </div>
                                 <p className="mt-20 max-w570">
