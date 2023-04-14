@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const events = () => {
+export const Events = () => {
   return (
     <div>events</div>
   )
