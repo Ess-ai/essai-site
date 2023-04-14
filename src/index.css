@@ -26,9 +26,9 @@ b{
   left: 50%;
   margin-top: 2rem;
   transform: translate(-50%, -50%);
-  height: 2px;
+  height: 2.5px;
   width: 7rem;
-  background-color: gray;
+  background-color: rgb(195, 194, 194);
 }
 .loading{
   background-color:#00004d;  
@@ -67,4 +67,12 @@ b{
 
 .move-circle.bg-blue{
   background: royalblue;
+}
+
+.bg-blue{
+  background: royalblue;
+}
+
+.dsn-icon-heading-color.dsn-def-btn.d-flex.justify-content-center :hover {
+  color: blue;
 }

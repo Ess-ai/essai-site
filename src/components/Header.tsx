@@ -18,7 +18,7 @@ class Header extends Component {
                     <ul id="dsn-primary-list" className="primary-nav h2">
                         <li className="nav-item has-sub-menu">
                             <a title="Home" href="">
-                                <span className="overflow ">News <i className="fa fa-angle-down"></i></span>
+                                <span className="overflow ">Resources <i className="fa fa-angle-down"></i></span>
                             </a>
                             <ul className="nav-item">
                                 <li className="dsn-back">
@@ -32,7 +32,7 @@ class Header extends Component {
                                             </svg>
                                             
                                             <span className="text-toggle-back">
-                                                <span className="text-name">News</span>
+                                                <span className="text-name">Resources</span>
                                                 <span className="text-back">Back</span>
                                             </span>
                                         </span>
@@ -44,12 +44,17 @@ class Header extends Component {
                                 </li>
                                 <li className="nav-item ">
                                     <a title="Log Out" href="" data-dsn-text="Logging Out">
-                                        <span className="overflow">Events</span>
+                                        <span className="overflow">Tools</span>
                                     </a>
                                 </li>
                                 <li className="nav-item ">
                                     <a title="Stories" href="" data-dsn-text="Become a StoryTeller">
-                                        <span className="overflow">Updates</span>
+                                        <span className="overflow">Technologies</span>
+                                    </a>
+                                </li>
+                                <li className="nav-item ">
+                                    <a title="Stories" href="" data-dsn-text="Become a StoryTeller">
+                                        <span className="overflow">Events & Updates</span>
                                     </a>
                                 </li>
                             </ul>
@@ -77,17 +82,27 @@ class Header extends Component {
                                 </li>
                                 <li className="nav-item ">
                                     <a title="Stories" href="" data-dsn-text="Stories">
-                                        <span className="overflow">Overview</span>
+                                        <span className="overflow">Releases</span>
                                     </a>
                                 </li>
                                 <li className="nav-item ">
                                     <a title="Log Out" href="" data-dsn-text="Logging Out">
-                                        <span className="overflow">Model</span>
+                                        <span className="overflow">Documentaion</span>
                                     </a>
                                 </li>
                                 <li className="nav-item ">
                                     <a title="Log Out" href="" data-dsn-text="Logging Out">
-                                        <span className="overflow">Download</span>
+                                        <span className="overflow">References</span>
+                                    </a>
+                                </li>
+                                <li className="nav-item ">
+                                    <a title="Log Out" href="" data-dsn-text="Logging Out">
+                                        <span className="overflow">Applications</span>
+                                    </a>
+                                </li>
+                                <li className="nav-item ">
+                                    <a title="Log Out" href="" data-dsn-text="Logging Out">
+                                        <span className="overflow">Reviews</span>
                                     </a>
                                 </li>
                             </ul>
@@ -120,12 +135,22 @@ class Header extends Component {
                                 </li>
                                 <li className="nav-item ">
                                     <a title="Log Out" href="" data-dsn-text="Logging Out">
-                                        <span className="overflow">Index</span>
+                                        <span className="overflow">Model & Training</span>
+                                    </a>
+                                </li>
+                                <li className="nav-item ">
+                                    <a title="Log Out" href="" data-dsn-text="Logging Out">
+                                        <span className="overflow">Research Journey</span>
                                     </a>
                                 </li>
                                 <li className="nav-item ">
                                     <a title="Stories" href="" data-dsn-text="Become a StoryTeller">
-                                        <span className="overflow">References</span>
+                                        <span className="overflow">Publications</span>
+                                    </a>
+                                </li>
+                                <li className="nav-item ">
+                                    <a title="Stories" href="" data-dsn-text="Become a StoryTeller">
+                                        <span className="overflow">Solutions</span>
                                     </a>
                                 </li>
                             </ul>
@@ -174,9 +199,15 @@ class Header extends Component {
                             </ul>
                         </li>
                         <li className="nav-item">
-                            <Link data-dsn="parallax" to="/" data-dsn-text="ESSAI">
-                                <span className="title-btn p-relative z-index-1"><b>Try essai</b></span>
-                            </Link>
+                            <div className="dsn-icon-heading-color dsn-def-btn d-flex justify-content-center">
+                                <a className="dsn-btn dsn-border border-color-default  background-main  effect-ajax has-icon-left"
+                                href="/signin" data-dsn-text="TRY ESSAI">
+                                <span className="dsn-bg-before btn-icon-left heading-color z-index-1">
+                                    <i className="fas fa-angle-right" aria-hidden="true"></i>
+                                </span>
+                                    <span className="title-btn p-relative z-index-1 ">JOIN THE WAITLIST</span>
+                                </a>
+                            </div>
                         </li>
                     </ul>
                 </nav>
