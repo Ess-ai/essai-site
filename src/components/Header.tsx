@@ -38,9 +38,9 @@ class Header extends Component {
                                         </span>
                                 </li>
                                 <li className="nav-item ">
-                                    <a title="Log Out" href="" data-dsn-text="Logging Out">
+                                    <Link title="Log Out" to="/stories" data-dsn-text="Logging Out">
                                         <span className="overflow">Stories</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item ">
                                     <a title="Log Out" href="" data-dsn-text="Logging Out">
