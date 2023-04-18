@@ -14,7 +14,6 @@ function App() {
             <Route path="/stories" element={<Stories />} />
             <Route path="/events" element={<Events />} />
             <Route path="/updates" element={<Updates />} />
-            <Route path="/signup" element={<Signup />} />
           </Routes>
           <Footer/>
         </Router>

@@ -53,9 +53,9 @@ class Header extends Component {
                                     </a>
                                 </li>
                                 <li className="nav-item ">
-                                    <a title="Stories" href="" data-dsn-text="Become a StoryTeller">
+                                    <Link title="Stories" to="/events" data-dsn-text="Become a StoryTeller">
                                         <span className="overflow">Events & Updates</span>
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </li>
