@@ -31,9 +31,8 @@ export const Events = () => {
       <div id="page_wrapper" className="wrapper">
         <div className="root-blog container section-margin  dsn-blog">
           <div id="hero_title" className="mt-10">
-              <h1 className="title text-upper text-red">
-                SORRY
-                THERE IS CURRENTLY NO EVENTS AVAILABLE.
+              <h1 className="title text-red">
+                Sorry There is any events at the moment.
               </h1>
           </div>
         </div>
