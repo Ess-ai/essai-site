@@ -17,9 +17,9 @@ class Header extends Component {
                     <div className="menu-cover-title header-container dsn-container">MENU</div>
                     <ul id="dsn-primary-list" className="primary-nav h2">
                         <li className="nav-item has-sub-menu">
-                            <a title="Home" href="">
+                            <Link title="Home" to="">
                                 <span className="overflow ">Resources <i className="fa fa-angle-down"></i></span>
-                            </a>
+                            </Link>
                             <ul className="nav-item">
                                 <li className="dsn-back">
                                         <span>
@@ -43,14 +43,14 @@ class Header extends Component {
                                     </Link>
                                 </li>
                                 <li className="nav-item ">
-                                    <a title="Log Out" href="" data-dsn-text="Logging Out">
+                                    <Link title="Log Out" to="" data-dsn-text="Logging Out">
                                         <span className="overflow">Tools</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item ">
-                                    <a title="Stories" href="" data-dsn-text="Become a StoryTeller">
+                                    <Link title="Stories" to="" data-dsn-text="Become a StoryTeller">
                                         <span className="overflow">Technologies</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item ">
                                     <Link title="Stories" to="/events" data-dsn-text="Become a StoryTeller">
@@ -60,9 +60,9 @@ class Header extends Component {
                             </ul>
                         </li>
                         <li className="nav-item has-sub-menu">
-                            <a title="Home" href="">
+                            <Link title="Product" to="/">
                                 <span className="overflow ">Product<i className="fa fa-angle-down"></i></span>
-                            </a>
+                            </Link>
                             <ul className="nav-item">
                                 <li className="dsn-back">
                                         <span>
@@ -81,36 +81,31 @@ class Header extends Component {
                                         </span>
                                 </li>
                                 <li className="nav-item ">
-                                    <a title="Stories" href="" data-dsn-text="Stories">
+                                    <Link title="Stories" to="/downloads" data-dsn-text="Stories">
                                         <span className="overflow">Releases</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item ">
-                                    <a title="Log Out" href="" data-dsn-text="Logging Out">
+                                    <Link title="Log Out" to="/downloads" data-dsn-text="Logging Out">
                                         <span className="overflow">Documentaion</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item ">
-                                    <a title="Log Out" href="" data-dsn-text="Logging Out">
+                                    <Link title="Log Out" to="/downloads" data-dsn-text="Logging Out">
                                         <span className="overflow">References</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item ">
-                                    <a title="Log Out" href="" data-dsn-text="Logging Out">
+                                    <Link title="Log Out" to="/downloads" data-dsn-text="Logging Out">
                                         <span className="overflow">Applications</span>
-                                    </a>
-                                </li>
-                                <li className="nav-item ">
-                                    <a title="Log Out" href="" data-dsn-text="Logging Out">
-                                        <span className="overflow">Reviews</span>
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </li>
                         <li className="nav-item has-sub-menu">
-                            <a title="Home" href="">
+                            <Link title="Home" to="">
                                 <span className="overflow ">Research <i className="fa fa-angle-down"></i></span>
-                            </a>
+                            </Link>
                             <ul className="nav-item">
                                 <li className="dsn-back">
                                         <span>
@@ -129,36 +124,36 @@ class Header extends Component {
                                         </span>
                                 </li>
                                 <li className="nav-item ">
-                                    <a title="Log Out" href="" data-dsn-text="Logging Out">
+                                    <Link title="Log Out" to="" data-dsn-text="Logging Out">
                                         <span className="overflow">Overview</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item ">
-                                    <a title="Log Out" href="" data-dsn-text="Logging Out">
+                                    <Link title="Log Out" to="" data-dsn-text="Logging Out">
                                         <span className="overflow">Model & Training</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item ">
-                                    <a title="Log Out" href="" data-dsn-text="Logging Out">
+                                    <Link title="Log Out" to="" data-dsn-text="Logging Out">
                                         <span className="overflow">Research Journey</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item ">
-                                    <a title="Stories" href="" data-dsn-text="Become a StoryTeller">
+                                    <Link title="Stories" to="" data-dsn-text="Become a StoryTeller">
                                         <span className="overflow">Publications</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item ">
-                                    <a title="Stories" href="" data-dsn-text="Become a StoryTeller">
+                                    <Link title="Stories" to="" data-dsn-text="Become a StoryTeller">
                                         <span className="overflow">Solutions</span>
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </li>
                         <li className="nav-item has-sub-menu">
-                            <a title="Home" href="">
+                            <Link title="Home" to="">
                                 <span className="overflow ">Company<i className="fa fa-angle-down"></i></span>
-                            </a>
+                            </Link>
                             <ul className="nav-item">
                                 <li className="dsn-back">
                                         <span>
@@ -177,36 +172,36 @@ class Header extends Component {
                                         </span>
                                 </li>
                                 <li className="nav-item ">
-                                    <a title="Stories" href="" data-dsn-text="Stories">
+                                    <Link title="Stories" to="" data-dsn-text="Stories">
                                         <span className="overflow">About</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item ">
-                                    <a title="Log Out" href="" data-dsn-text="Logging Out">
+                                    <Link title="Log Out" to="" data-dsn-text="Logging Out">
                                         <span className="overflow">Parent</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item ">
-                                    <a title="Log Out" href="" data-dsn-text="Logging Out">
+                                    <Link title="Log Out" to="" data-dsn-text="Logging Out">
                                         <span className="overflow">Patners</span>
-                                    </a>
+                                    </Link>
                                 </li>
                                 <li className="nav-item ">
-                                    <a title="Stories" href="" data-dsn-text="Become a StoryTeller">
+                                    <Link title="Stories" to="" data-dsn-text="Become a StoryTeller">
                                         <span className="overflow">Resources</span>
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </li>
                         <li className="nav-item">
                             <div className="dsn-icon-heading-color dsn-def-btn d-flex justify-content-center">
-                                <a className="dsn-btn dsn-border border-color-default  background-main  effect-ajax has-icon-left"
-                                href="/signin" data-dsn-text="TRY ESSAI">
+                                <Link className="dsn-btn dsn-border border-color-default  background-main  effect-ajax has-icon-left"
+                                to="/signin" data-dsn-text="TRY ESSAI">
                                 <span className="dsn-bg-before btn-icon-left heading-color z-index-1">
                                     <i className="fas fa-angle-right" aria-hidden="true"></i>
                                 </span>
                                     <span className="title-btn p-relative z-index-1 ">JOIN THE WAITLIST</span>
-                                </a>
+                                </Link>
                             </div>
                         </li>
                     </ul>
