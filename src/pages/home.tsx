@@ -20,8 +20,14 @@ export default function Home() {
                             <div className="intro-project w-100">
                                 <div className="intro-title ">
                                     <div id="hero_title" className="mt-10">
-                                        <h1 className="title text-upper">
-                                            AI for Learning
+                                        <h1 className="ah-headline title text-upper clip is-full-width ">
+                                            <span> AI for&nbsp;</span>
+                                            <span className="ah-words-wrapper">
+                                                <b className="is-visible">Learning.</b>
+                                                <b>Innovation</b>
+                                                <b>Erudition</b>
+                                                <b>You</b>
+                                            </span>
                                         </h1>
                                     </div>
                                     <p className="mt-20 max-w570">
