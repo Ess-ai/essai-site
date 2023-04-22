@@ -35,7 +35,7 @@ export default function Home() {
                                     </p>
                                     <div className="dsn-def-btn dsn-icon-heading-color mt-20 d-flex">
                                         <div className="dsn-normal-btn dsn-icon-heading-color d-flex align-self-end  justify-self-end">
-                                            <Link className="dsn-btn dsn-border border-color-defaul bg-blue effect-ajax border-rdu move-circle" data-dsn="parallax" to="https://essai.nilecore.site" data-dsn-text="TRY ESSAI">
+                                            <Link className="dsn-btn dsn-border border-color-defaul bg-blue effect-ajax border-rdu move-circle" data-dsn="parallax" to="/waiting-list" data-dsn-text="TRY ESSAI">
                                                 <span className="title-btn p-relative z-index-1 text-white">TRY ESSAI</span>
                                             </Link>
                                         </div>

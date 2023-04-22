@@ -204,7 +204,7 @@ const Header = () => {
                         : <></>
                     }
                     <li className="nav-item btn">
-                        <Link className="waiting-button" to="/" data-dsn-text="TRY ESSAI">
+                        <Link className="waiting-button" to="/waiting-list" data-dsn-text="TRY ESSAI">
                             <span className="">
                                 Request Early Access
                             </span>
