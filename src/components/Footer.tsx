@@ -1,5 +1,6 @@
 import React from 'react'
 import { logoDark, logoLight } from '../assets'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
@@ -17,13 +18,13 @@ export default function Footer() {
                         <span className="d-block"><b><i>AMAZING </i></b>TOGETHER</span>
                     </h2>
                     <div className="dsn-icon-heading-color dsn-def-btn d-flex justify-content-center mt-30">
-                        <a className="dsn-btn dsn-border border-color-default  background-main  effect-ajax has-icon-left"
-                           href="/signin" data-dsn-text="TRY ESSAI">
+                        <Link className="dsn-btn dsn-border border-color-default  background-main  effect-ajax has-icon-left"
+                           to="/waiting-list" data-dsn-text="TRY ESSAI">
                         <span className="dsn-icon dsn-bg-before btn-icon-left heading-color z-index-1">
                             <i className="fas fa-angle-right" aria-hidden="true"></i>
                         </span>
                             <span className="title-btn p-relative z-index-1 ">JOIN THE WAITLIST</span>
-                        </a>
+                        </Link>
                     </div>
 
                 </div>

@@ -7,6 +7,9 @@ import ceci from './img/ceci-li-oJC3bYdmn5Y-unsplash.jpg'
 import ian from './img/ian-talmacs-M-r5bhedn1U-unsplash.jpg'
 import prev1 from './img/ndcCLuu64mOM_1024_500.png';
 import prev2 from './img/gsJyErfpFb5k_1270_760.png';
+import writer from './img/drawing-of-struggling-writer.webp'
+import penned from './img/penned.jpg'
+import err404img from './img/404_page.webp'
 
 export {
     logoLight,
@@ -17,5 +20,8 @@ export {
     ceci,
     ian,
     prev1,
-    prev2
+    prev2,
+    writer,
+    penned,
+    err404img
 }
