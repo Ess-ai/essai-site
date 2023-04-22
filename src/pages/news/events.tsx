@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 export const Events = () => {
+
+  const [noEvents, setnoEvents] = useState('')
+
   return (
-    
     <>
       <header id="dsn_header" className="dsn-header-animation header-normal ">
         <div className="entry-header p-relative over-hidden">
@@ -31,9 +33,9 @@ export const Events = () => {
       <div id="page_wrapper" className="wrapper">
         <div className="root-blog container section-margin  dsn-blog">
           <div id="hero_title" className="mt-10">
-              <h1 className="h1 text-red">
+              <p className="h1 text-red">
                 Sorry There isn't any events at the moment.
-              </h1>
+              </p>
           </div>
         </div>
       </div>

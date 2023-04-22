@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
 
-    const [isReleased, setisReleased] = useState<boolean>(true)
+    const [isReleased, setisReleased] = useState<boolean>(false)
 
 
     return (
