@@ -8,7 +8,7 @@ const Header = () => {
 
 
     return (
-        <header id="site_menu_header" className="site-header nav-bg dsn-container text-upper">
+        <header id="site_menu_header" className="site-header dsn-container text-upper">
             <div className="main-logo">
                 <Link to="/" data-dsn-text="Essai" className="custom-logo-link main-brand effect-ajax" rel="home"
                 aria-current="page">
